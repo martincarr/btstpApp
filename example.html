@@ -3,11 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript">
+    $(document).on("ready",function(){
+      alert("hola soy Jquery");
+    });
+  </script>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>Exercise Bootstrap by Martin CM</title>
 </head>
 <body>
+  <div id="contenedor" class="col-xs-12 col-sm-6 col-md-1-3 col-lg-3">
+    <td>
+      <tr>
+        <<div class="input-group">
+          <span class="input-group-addon">
+            <input type="text" class="form-control" placeholder="">
+          </span>
+          <form action="/index.html">
+            <label>Usuario:</label>
+            <input type="text" name="firstname" value="Nombre"><br>
+            <label>Contrasenia:</label>
+            <input type="password" name="password" value="***************"><br>
+            <input class="button2" type="submit" value="Submit">
+            <input class="button2" type="submit" value="Cancel">
+          </form>
+        </div>
+      </tr>
+    </td>
+  </div>" >
+
+  </div>"
   <h1>Este es un Header</h1>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
